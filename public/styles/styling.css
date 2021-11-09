@@ -1,7 +1,7 @@
 .p1 {
     text-align: justify;
     color: green;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 .p2 {
@@ -14,5 +14,36 @@
     color: red;
     background-color: white;
 }
+
+.centrar_texto{
+    text-align: center;
+}
+
+.nav_gatos{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: 1%;
+    top: 0%;
+    transform: translateY(-50%);
+    float: right;
+    padding-right: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+}
+
+.bar {
+    position: absolute;
+    background-color: aquamarine;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
 
  

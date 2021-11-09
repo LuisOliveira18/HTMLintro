@@ -1,0 +1,60 @@
+body{
+    background-color: azure;
+}
+
+.nav {
+    position: absolute;
+    background-color: aquamarine;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.brand{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    Arial, sans-serif;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 60px;
+    position: relative;
+    margin: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    
+}
+.ft {
+    position: relative;
+    margin-left:auto ;
+    margin-right: auto ;
+    width: 10%;
+    margin-top: 500px;
+    border-style: inset;
+    border-color: black;
+    background-color: blue;
+    border-width: 2px;
+}
+
+.menu{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: 1%;
+    top: 25%;
+    transform: translateY(-50%);
+    float: right;
+    padding-right: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+}
+
+.menu:hover {
+    background-color: red;
+    color: rgb(0, 26, 255);
+}
